@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@400;500;600&display=swap');
+
+:root {
+    --f-header: "Poppins", sans-serif;
+    --f-para: "Quicksand", sans-serif;
+}
+
+*, 
+html, 
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.login {
+    height: 100vh;
+}
+
+.header h1 {
+    font-family: var(--f-header);
+    font-weight: 900;
+    font-size: 3.2rem;
+    color: #003974;
+    margin-bottom: 1.2rem;
+    line-height: 50px;
+}
+
+.header img {
+    height: 2.8rem;
+    margin-bottom: 3rem;
+}
+
+.login-form label {
+    font-family: var(--f-para);
+    font-weight: 500;
+    color: #003974;
+}
+
+.login-form input {
+    border: 1px solid #003974;
+}
+
+.login-form .form-select {
+    border: 1px solid #003974;
+}
+
+.c-form {
+    padding: 0 90px 0 120px;
+}
+
+.form-label {
+    margin: 0;
+}
+
+.c-input {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #003974;
+    font-family: var(--f-header);
+    font-weight: 600;
+    font-size: 18px;
+    padding: 8px 3.8rem;
+}
+
+
+.login-right img {
+    height: 60%;
+}
+
+.login-right h3 {
+    color: white;
+    font-family: var(--f-header);
+    font-weight: 500;
+}
+
+.login-right h3::after{
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 5px;
+    width: 23%;
+    left: 38%;
+    bottom: 8.4rem;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+
+#gambar {
+    background: url(/assets/img/background.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}

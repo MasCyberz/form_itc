@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Css -->
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+
+    <section class="login d-flex">
+        <div class="login-left w-50 h-100 col-md-12">
+            <div class="row justify-content-center align-items-center h-100">
+                <div class="col-xl-6 col-md-12 w-100 c-form">
+                    <div class="header">
+                        <img src="/assets/img/Group 137.svg" alt="">
+
+                        <h1>Daftarkan dirimu!</h1>
+                    </div>
+                    <div class="login-form">
+                        <div class="c-input">
+                            <label for="nama" class="form-label">Nama :</label>
+                            <input type="email" class="form-control" id="nama" placeholder="Masukkan Nama Anda">
+                        </div>
+                        <div class="c-input">
+                            <label for="kelas" class="form-label">Kelas :</label>
+                            <input type="text" class="form-control" id="kelas">
+                        </div>
+                        <div class="c-input">
+                            <label for="validationCustom04" class="form-label">Jurusan</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Pilih jurusan anda</option>
+                                <option>AKL</option>
+                                <option>BDP</option>
+                                <option>OTKP</option>
+                                <option>RPL</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="c-input">
+                            <label for="validationCustom04" class="form-label">Divisi</label>
+                            <select class="form-select" id="validationCustom04" required>
+                                <option selected disabled value="">Pilih divisi anda</option>
+                                <option>Web Developer</option>
+                                <option>Design</option>
+                                <option>Multimedia</option>
+                                <option>Networking</option>
+                            </select>
+                            <div class="invalid-feedback">
+                                Please select a valid state.
+                            </div>
+                        </div>
+                        <div class="c-input">
+                            <label for="no" class="form-label">No Telepon :</label>
+                            <input type="number" class="form-control" id="no">
+                        </div>
+                        <button class="btn btn-primary">Daftar</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="login-right w-50 h-100 justify-content-center text-center d-lg-flex align-items-center flex-column position-relative" id="gambar" style="padding: 50px;">
+            <!-- <img src="/assets/img/background.png" alt="" class="img-fluid"> -->
+            <img src="/assets/img/logo.png" alt="" class="img-fluid">
+            <h3 class="mt-xl-4" style="font-size: 1.3rem;">IT CLUB SMKN 12 JAKARTA</h3>
+        </div>
+    </section>
+
+    <!-- Javascript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
